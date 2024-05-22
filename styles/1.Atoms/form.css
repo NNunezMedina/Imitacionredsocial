@@ -1,0 +1,48 @@
+section.login {
+    width: 600px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+form {
+    background: white;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 60px;
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+p {
+    color: rgb(213, 52, 52);
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.disapear {
+    display: none;
+}
+
+.appear {
+    display: block;
+}
+
+label {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(100, 100, 100);
+}

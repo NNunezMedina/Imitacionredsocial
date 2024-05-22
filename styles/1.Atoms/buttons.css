@@ -1,0 +1,16 @@
+button {
+    margin-top: 20px;
+    width: 150px;
+    border: none;
+    background: rgb(157, 157, 157);
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 2px 2px 0px lightgray;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: rgb(130, 130, 130);
+}
